@@ -8,7 +8,7 @@ See `src/META-INF/jsp-ui.tld`.
 
 ## Examples
 
-###Classic JSP Syntax
+### Classic JSP Syntax
 
 - The Template:
 
@@ -51,7 +51,7 @@ See `src/META-INF/jsp-ui.tld`.
       </ui:define>
     </ui:composition>
 
-###XML based JSPX Syntax
+### XML based JSPX Syntax
 
 - The Template:
 
