@@ -12,18 +12,18 @@ See `src/META-INF/jsp-ui.tld`.
 
 - The Template:
 
-    \<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%\>
-    \<%@ taglib prefix="ui" uri="http://robs.de/jsp-ui" %\>
-    \<html\>
-      \<head\>
-        \<title\>\<ui:insert name="title" /\>\</title\>
-      \</head\>
-      \<body\>
-        \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="header" /\>\</div\>
-        \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="content" /\>\</div\>
-        \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="footer" /\>\</div\>
-      \</body\>
-    \</html\>
+     \<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%\>
+     \<%@ taglib prefix="ui" uri="http://robs.de/jsp-ui" %\>
+     \<html\>
+       \<head\>
+         \<title\>\<ui:insert name="title" /\>\</title\>
+       \</head\>
+       \<body\>
+         \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="header" /\>\</div\>
+         \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="content" /\>\</div\>
+         \<div style="margin:4px;padding:4px;border:1px solid silver;"\>\<ui:insert name="footer" /\>\</div\>
+       \</body\>
+     \</html\>
 
 - A Page Composition:
 
